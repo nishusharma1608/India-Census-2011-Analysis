@@ -1,6 +1,7 @@
 # India-Census-2011-Analysis
 ----------------------------------------------------------------------------------------------------------------------------------------
 INTRODUCTION 
+
 •Census is nothing but a process of collecting, compiling, analyzing, evaluating, publishing and disseminating statistical data regarding the population. 
 •It is a reflection of truth and facts as they exist in a country about its people, their diversity of habitation, religion, culture, language, education, health and socio-economic status. 
 •The word ‘Census’ is derived from the Latin word ‘Censere’ meaning ‘to assess or to rate’.
@@ -8,6 +9,7 @@ INTRODUCTION
 •The Census of India has been conducted 15 times, As of 2011. It has been conducted every 10 years, beginning in 1871.
 
 This repository consists of the following :
+
 1. README.txt (this file) 
 2. Dataset : "india-districts-census-2011.csv" 
 3. An Ipython notebook
@@ -15,6 +17,7 @@ This repository consists of the following :
 5. 'INDIA_shp' folder which contains shapefiles of India
 
 Step 1 : DATA CLEANING
+
 To keep names of states same in dataset and shapefile, following transformations were performed.
 - JAMMU & KASHMIR is changed to JAMMU AND KASHMIR
 - PUDUCHERRY is changed to PONDICHERRY
@@ -23,12 +26,15 @@ To keep names of states same in dataset and shapefile, following transformations
 - ODISHA is changed to ORISSA
 
 Step 2 : IMPORTING LIBRARIES
+
 All of the modules, functions and objects we are going to use are imported.
 
 Step 3 : LOADING THE DATA
+
 Dataset is loaded in a pandas dataframe.
 
 Step 4 : SUMMARIZING THE DATASET
+
 (a) Dimensions of the dataset
 (b) Peek at the data
 (c) Statistical summary
